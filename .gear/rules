@@ -1,0 +1,3 @@
+spec: misc/ALTLinux/lua-module-lua-parser-loose.spec
+tar: master:. name=lua-parser-loose base=lua-parser-loose
+copy: misc/*rockspec
