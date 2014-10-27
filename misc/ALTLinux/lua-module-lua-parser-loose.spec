@@ -4,7 +4,7 @@
 %define rockspec lua-parser-loose-scm-1.rockspec
 Name: lua-module-%oname
 Version: 0.1
-Release: alt1_lr1.git.gf3d5901
+Release: alt2_lr1.git.g67f9007
 Summary: loose parsing of Lua code, ignoring syntax errors
 License: MIT/X11
 Group: Development/Other
@@ -63,5 +63,8 @@ done
 %exclude %luarocks_dbdir/manifest
 
 %changelog
+* Mon Oct 27 2014 Ildar Mulyukov <ildar@altlinux.ru> 0.1-alt2_lr1.git.g67f9007
+- new version (Paul Kulchenko's fork)
+
 * Fri Oct 17 2014 Ildar Mulyukov <ildar@altlinux.ru> 0.1-alt1_lr1.git.gf3d5901
 - git HEAD (commit f3d5901bb3062a6723e17a2cb3a4baeb139419be)
